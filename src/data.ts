@@ -1,6 +1,6 @@
 export const cvData = {
   name: "Thaian Alves de Souza",
-  role: "Analista de Dados e Processos",
+  role: "Analista de Sistemas",
   contacts: {
     phone: "(24) 98823-2141",
     email: "alvesthaian09@gmail.com",
