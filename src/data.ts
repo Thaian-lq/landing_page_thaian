@@ -8,7 +8,7 @@ export const cvData = {
     linkedin: "https://www.linkedin.com/in/thaian-alves-a74055325/",
     github: "https://github.com/Thaian-lq",
   },
-  summary: "Analista de Dados e Processos com experiência em automação, integração de sistemas corporativos e desenvolvimento de dashboards estratégicos para suporte à tomada de decisão. Atuação prática com SQL, Power BI, Python, SAP e Power Platform, criando soluções orientadas a dados para otimização operacional e controle de indicadores. Experiência no acompanhamento de processos produtivos, análise de desempenho operacional, monitoramento de KPIs, identificação de desvios e desenvolvimento de soluções voltadas à melhoria contínua e aumento da eficiência dos processos industriais. Perfil analítico, com foco em resolução de problemas, automação e evolução de processos.",
+  summary: "Analista de Sistemas com experiência em automação, integração de sistemas corporativos e desenvolvimento de dashboards estratégicos para suporte à tomada de decisão. Atuação prática com SQL, Power BI, Python, SAP e Power Platform, criando soluções orientadas a dados para otimização operacional e controle de indicadores. Experiência no acompanhamento de processos produtivos, análise de desempenho operacional, monitoramento de KPIs, identificação de desvios e desenvolvimento de soluções voltadas à melhoria contínua e aumento da eficiência dos processos industriais. Perfil analítico, com foco em resolução de problemas, automação e evolução de processos.",
   skills: {
     "Dados & BI": [
       "SQL",
@@ -44,6 +44,9 @@ export const cvData = {
         "Estruturação e manutenção de bases de dados para suporte a aplicações corporativas",
         "Criação de dashboards para monitoramento de KPIs, auxiliando liderança na tomada de decisões ",
         "Desenvolvimento de rotinas avançadas em VBA integrado ao SAP para extração e tratamento automático de dados",
+        "Mapeamento e melhoria de processos internos",
+        "Apoio à tomada de decisão através de indicadores operacionais",
+        "Registro e acompanhamento dos indicadores de absenteísmo"
       ]
     },
     {
@@ -53,7 +56,10 @@ export const cvData = {
       duties: [
         "Gestão de movimentações e controle de estoque com ERP SAP",
         "Validação de entradas sistêmicas e conferência de notas fiscais ",
-        "Otimização de processos logísticos operacionais"
+        "Otimização de processos logísticos operacionais",
+        "Conferência de notas fiscais, validação de entradas e registro de movimentações no sistema",
+        "Desenvolvimento de automações em VBA integradas ao SAP",
+        "Atuação nos processos logísticos de recebimento, conferência, armazenagem, movimentação e expedição de materiais, garantindo a conformidade das operações"
       ]
     }
   ],
