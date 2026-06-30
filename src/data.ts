@@ -14,16 +14,17 @@ export const cvData = {
       "SQL",
       "Power BI",
       "DAX",
-      "Governança de Dados"
+      "ETL",
+      "Excel"
     ],
-    "Desenvolvimento": [
-      "Python",
+    "Full Stack": [
       "JavaScript",
       "Node.js",
       "React",
-      "VBA"
     ],
     "Automação & Low-Code": [
+      "Python",
+      "VBA",
       "n8n",
       "Power Automate",
       "Power Apps"
@@ -37,44 +38,45 @@ export const cvData = {
   experience: [
     {
       company: "Nissan Automóveis Brasil",
-      role: "Estágio",
+      role: "Estagiário de Sistemas",
       period: "02/2025 - Atualmente",
       duties: [
-        "Desenvolvimento de aplicações internas em Power Apps e fluxo automatizados com Power Automate",
-        "Estruturação e manutenção de bases de dados para suporte a aplicações corporativas",
-        "Criação de dashboards para monitoramento de KPIs, auxiliando liderança na tomada de decisões ",
-        "Desenvolvimento de rotinas avançadas em VBA integrado ao SAP para extração e tratamento automático de dados",
-        "Mapeamento e melhoria de processos internos",
-        "Apoio à tomada de decisão através de indicadores operacionais",
-        "Registro e acompanhamento dos indicadores de absenteísmo"
+        "Desenvolvimento de aplicações corporativas utilizando Power Apps e Power Automate para digitalização e automação de processos",
+        "Criação de dashboards executivos em Power BI para monitoramento de KPIs de produção e paradas de máquinas",
+        "Desenvolvimento de automações em VBA integradas ao SAP para extração e consolidação automática de dados",
+        "Estruturação e manutenção de bases de dados relacionais para suporte à tomada de decisão",
+        "Mapeamento, documentação e otimização de processos internos",
+        "Desenvolvimento de soluções integradas com Python e Microsoft Power Platform",
+        "Apoio à liderança através da análise de indicadores operacionais e geração de relatórios gerenciais"
       ]
     },
     {
-      company: "Companhia Siderúrgica Nacional",
+      company: "Companhia Siderúrgica Nacional (CSN)",
       role: "Almoxarife",
       period: "10/2022 - 01/2025",
       duties: [
-        "Gestão de movimentações e controle de estoque com ERP SAP",
-        "Validação de entradas sistêmicas e conferência de notas fiscais ",
-        "Otimização de processos logísticos operacionais",
-        "Conferência de notas fiscais, validação de entradas e registro de movimentações no sistema",
-        "Desenvolvimento de automações em VBA integradas ao SAP",
-        "Atuação nos processos logísticos de recebimento, conferência, armazenagem, movimentação e expedição de materiais, garantindo a conformidade das operações"
+        "Operação do SAP ERP para controle de estoque, recebimento, armazenagem, movimentação e expedição de materiais",
+        "Conferência e validação de notas fiscais conforme padrões de auditoria interna",
+        "Desenvolvimento de automações em VBA integradas ao SAP para extração e consolidação de dados",
+        "Otimização de processos logísticos, reduzindo retrabalho e aumentando a eficiência operacional",
+        "Registro e controle das movimentações de materiais em ambiente industrial de alto volume",
+        "Suporte às operações logísticas garantindo conformidade fiscal e operacional"
       ]
     }
   ],
+
   projects: [
     {
       name: "Sistema de Controle e Registro de Scrap",
-      description: "Projeto voltado à estruturação e análise de dados relacionados a materiais descartados, com foco em controle financeiro e identificação de erros de apontamentos. Projeto reconhecido em 2º lugar no programa de estágio de toda Nissan do Brasil."
+      description: "Aplicação desenvolvida em Power Apps, Power Automate e VBA para registrar e identificar inconsistências que geravam prejuízos financeiros. O projeto gerou uma economia aproximada de R$ 100 mil em um único mês e conquistou o 2º lugar no Programa Nacional de Estágio da Nissan Brasil."
     },
     {
-      name: "Sistema de Controle de Horas Extras",
-      description: "Solução corporativa desenvolvida para centralizar, padronizar e automatizar o processo de solicitação e aprovação de horas extras entre múltiplos setores da área."
+      name: "Sistema Corporativo de Controle de Horas Extras",
+      description: "Solução end-to-end desenvolvida com Power Apps, Power Automate e SharePoint para centralizar solicitações de horas extras, automatizar aprovações hierárquicas, eliminar processos em planilhas e e-mails e criar histórico auditável entre múltiplos setores."
     },
     {
-      name: "IA Generativa & n8n",
-      description: "Criação de fluxos inteligentes para geração automatizada de conteúdo (imagem e vídeo) via integração de APIs com IA generativa."
+      name: "Pipeline RAG com IA Generativa",
+      description: "Desenvolvimento de um pipeline RAG utilizando Python, Google Gemini API, ChromaDB e PyPDF para responder automaticamente perguntas sobre documentos PDF através de recuperação vetorial e geração de respostas com IA."
     }
   ],
   education: [
